@@ -53,8 +53,6 @@ $sql_select = "SELECT * FROM sinhvien ORDER BY ngay_tao";
             color: #333;
             margin-bottom: 10px;
         }
-
-        /* Form nhập */
         form {
             background: white;
             padding: 15px;
@@ -63,7 +61,6 @@ $sql_select = "SELECT * FROM sinhvien ORDER BY ngay_tao";
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
             margin-bottom: 25px;
         }
-
         input[type="text"], input[type="email"] {
             width: 95%;
             padding: 8px;
@@ -71,7 +68,6 @@ $sql_select = "SELECT * FROM sinhvien ORDER BY ngay_tao";
             border: 1px solid #ccc;
             border-radius: 6px;
         }
-
         button {
             background-color: #007bff;
             color: white;
@@ -81,12 +77,6 @@ $sql_select = "SELECT * FROM sinhvien ORDER BY ngay_tao";
             cursor: pointer;
             font-weight: bold;
         }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        /* Bảng danh sách */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -95,7 +85,6 @@ $sql_select = "SELECT * FROM sinhvien ORDER BY ngay_tao";
             overflow: hidden;
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
-
         th {
             background-color: #007bff;
             color: white;
@@ -103,14 +92,9 @@ $sql_select = "SELECT * FROM sinhvien ORDER BY ngay_tao";
             text-align: left;
             font-weight: bold;
         }
-
         td {
             padding: 10px;
             border-bottom: 1px solid #ddd;
-        }
-
-        tr:hover {
-            background-color: #f1f1f1;
         }
     </style>
 </head>
